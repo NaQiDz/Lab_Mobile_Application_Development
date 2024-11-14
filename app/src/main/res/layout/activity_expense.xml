@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityExpense">
+
+    <EditText
+        android:id="@+id/edtExpFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Expense For"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtExpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="5/10/2024"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edtExpValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RM"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spnQty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtVwTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:hint="@string/textView"/>
+
+    <ImageView
+        android:id="@+id/imgExp"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

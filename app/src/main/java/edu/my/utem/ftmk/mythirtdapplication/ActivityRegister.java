@@ -73,6 +73,8 @@ public class ActivityRegister extends AppCompatActivity {
             age--;
         }
         binding.editDate.setText(String.valueOf("You are " + age +" years old"));
+        Intent intent = new Intent(this, ActivityExpense.class);
+        startActivity(intent);
     }
 }
 
