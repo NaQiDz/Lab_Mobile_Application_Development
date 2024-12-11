@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Hi Buddy</string>
     <string name="full_name">Enter your full name</string>
+    <string name="user_name">Enter your username</string>
     <string name="email">Your email@email.com</string>
     <string name="phone_num">Contact number example: +60197295642</string>
     <string name="date">Your DOB eg: 27/8/2000</string>
@@ -8,4 +9,15 @@
     <string name="loginButton">Login</string>
     <string name="registerButton">Register</string>
     <string name="textView">Total Price RM...</string>
+
+    <string-array name="state_arrays">
+        <item>Melaka</item>
+        <item>Selangor</item>
+        <item>Johor</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Terengganu</item>
+        <item>Kedah</item>
+        <item>Perlis</item>
+    </string-array>
 </resources>
